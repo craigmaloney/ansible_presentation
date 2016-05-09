@@ -1,0 +1,6 @@
+---
+- name: Raspberry Development
+  hosts: raspberry
+  become: true
+  roles: 
+      - dev_common

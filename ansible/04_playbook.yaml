@@ -1,0 +1,12 @@
+---
+- name: Raspberry Development
+  hosts: raspberry
+  become: true
+  roles: 
+    - dev_common
+
+- name: Demo Machine Role
+  hosts: all
+  become: true
+  roles:
+    - demo_machine

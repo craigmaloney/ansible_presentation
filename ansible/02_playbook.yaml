@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Ensure tmux is installed on this machine
+    apt: name=tmux state=absent
