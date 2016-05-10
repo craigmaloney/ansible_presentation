@@ -1,0 +1,6 @@
+---
+- name: Upgrade
+  hosts: all
+  tasks:
+      - apt: upgrade=dist update_cache=yes
+        sudo: yes
