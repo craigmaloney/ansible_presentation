@@ -2,4 +2,6 @@ Hello {{ motd_demo_name }}
 
 This is a {{ motd_machine_name }} box.
 
-The FBI blah blah blah
+Don't do anything bad on this machine.
+
+kthxbai.
