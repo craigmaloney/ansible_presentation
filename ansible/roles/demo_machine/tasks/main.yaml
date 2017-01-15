@@ -1,4 +1,4 @@
 ---
 - name: Add motd to system
   template: src=motd dest="/etc" owner=root
-  sudo: true
+  become: true

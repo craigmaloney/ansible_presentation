@@ -3,7 +3,7 @@
   hosts: all
   tasks:
       - file: path="/etc/motd" state=absent
-        sudo: yes
+        become: yes
 
       - apt: name=tmux state=absent purge=yes
-        sudo: yes
+        become: yes

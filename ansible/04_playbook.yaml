@@ -1,12 +1,12 @@
 ---
-- name: Raspberry Development
-  hosts: raspberry
+- name: Beaglebone Development
+  hosts: development
   become: true
   roles: 
     - dev_common
 
 - name: Demo Machine Role
-  hosts: all
+  hosts: demo
   become: true
   roles:
     - demo_machine

@@ -1,6 +1,6 @@
 ---
-- name: Raspberry Development
-  hosts: raspberry
+- name: Beaglebone Development Setup
+  hosts: development
   become: true
   roles: 
       - dev_common

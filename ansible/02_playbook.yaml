@@ -2,5 +2,5 @@
 - hosts: all
   become: true
   tasks:
-  - name: Ensure tmux is installed on this machine
+  - name: Ensure tmux is removed from this machine
     apt: name=tmux state=absent

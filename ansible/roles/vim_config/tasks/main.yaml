@@ -1,0 +1,17 @@
+---
+- name: Install vim config
+  git:
+        repo: https://github.com/craigmaloney/vim-config.git
+        dest: /home/debian/configs
+
+- name: Link vimrc from config
+  file:
+        src: /home/debian/configs/vim/vimrc
+        dest: /home/debian/.vimrc
+        state: link
+
+- name: Link gvimrc from config
+  file:
+        src: /home/debian/configs/vim/gvimrc
+        dest: /home/debian/.gvimrc
+        state: link

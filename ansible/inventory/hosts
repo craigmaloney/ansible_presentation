@@ -1,7 +1,5 @@
-[production]
-#10.0.3.58
-#10.0.3.105
-#10.0.3.196
+[demo]
+raspberrypi ansible_user=pi ansible_ssh_pass=raspberry
 
-[raspberry]
-192.168.1.157
+[development]
+beaglebone ansible_user=debian ansible_ssh_pass=raspberry

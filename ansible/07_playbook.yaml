@@ -1,0 +1,5 @@
+---
+- name: VIM Configuration
+  hosts: development
+  roles: 
+    - vim_config

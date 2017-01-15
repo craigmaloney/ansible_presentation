@@ -4,5 +4,6 @@
   with_items:
     - build-essential
     - libssl-dev
+    - git
   when: ansible_os_family == 'Debian'
-  sudo: true
+  become: true
