@@ -2,6 +2,4 @@ Hello {{ motd_demo_name }}
 
 This is a {{ motd_machine_name }} box.
 
-Don't do anything bad on this machine.
-
-kthxbai.
+Don't do anything bad on this machine or we'll be very cross.
